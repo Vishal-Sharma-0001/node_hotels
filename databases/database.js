@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
-const url ='mongodb://127.0.0.1:27017/resturant';
-
+require('dotenv').config();
+// const url = process.env.DATABSE_URL_LOCAL;
+const url = process.env.DATABSE_URL
 const  connectDb = async() => {
    await mongoose.connect(url )
     .catch( (error)=> console.error(error) )
