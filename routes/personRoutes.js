@@ -76,10 +76,4 @@ const person = require("../models/person");
    module.exports = router;
 
 
-   //git init 
-   // git status    abhi tak save nhi kiya
-   // git add server.js for specialy single file 
-   // git add .   for all files
    
-
-
