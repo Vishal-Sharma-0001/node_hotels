@@ -1,0 +1,19 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sever.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "vishal",
+  "license": "ISC",
+  "description": "resturant",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
